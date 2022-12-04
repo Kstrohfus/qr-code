@@ -14,15 +14,15 @@ body {
 }
 
 img {
-    width: 375px;
+    width: 275px;
     border: none;
     border-radius: 20px;
-    margin: 20px 30px;
+    margin: 15px;
 }
 
 .container {
     background-color: #fff;
-    width: 430px;
+    width: 305px;
     height: 600px;
     border-radius: 20px;
     margin-top: 50px;
@@ -31,7 +31,7 @@ img {
 .one {
     font-weight: bold;
     font-size: 24px;
-    margin: 10px 60px;
+    margin: 10px;
 }
 
 .two {
@@ -40,11 +40,33 @@ img {
 p {
     font-size: 15px;
     text-align: center;
-    margin: 10px 90px;
+    margin: 20px 30px;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
     text-decoration: none;
+}
+
+/*Media*/
+@media (min-width: 1200px) {
+    img {
+        width: 375px;
+        margin: 20px 30px;
+    }
+
+    .container {
+        width: 430px;
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .one {
+        margin: 10px 60px;
+    }
+
+    p {
+        margin: 10px 90px;
+    }
 }
