@@ -1,25 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Outfit", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+    background-color: #d5e1ef;
 }
 
-.qr-code {
-    width: 100px;
-    height: 100px;
+img {
+    width: 375px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 30px;
 }
+
+.container {
+    background-color: #fff;
+    width: 430px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.one {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 60px;
+}
+
+.two {
+    color: #8d949e;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 90px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    text-decoration: none;
 }
